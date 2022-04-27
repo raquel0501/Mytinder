@@ -2,4 +2,31 @@
     <string name="app_name">My Tinder  </string>
     <string name="Welcome"> Welcome your Tinder 👋 </string>
 
+    <!-- Login -->
+    <string name="login_button">Authenticate</string>
+    <string name="action_save_credentials">Save credentials</string>
+
+    <string name="error_credentials_empty_loginusername">Your username is empty</string>
+    <string name="error_credentials_empty_loginpass">Your password is empty</string>
+    <string name="error_credentials_mismatch">Invalid username and/or password</string>
+
+    <string name="login_Username">Your username</string>
+    <string name="login_pass">Your password</string>
+    <!-- account -->
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="descrição">This application aims to help you find a person to walk with or take your pet to the clipper</string>
+
+
 </resources>
