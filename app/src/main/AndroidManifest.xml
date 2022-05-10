@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTinder">
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+
         <activity
             android:name=".AccountActivity"
             android:exported="false"
@@ -30,7 +28,6 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".DetailsActivity" />
         <activity android:name=".PassearActivity" />
-        <activity android:name=".register1Activity" />
         <activity android:name=".Registo2Activity" />
     </application>
 

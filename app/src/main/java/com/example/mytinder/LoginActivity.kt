@@ -8,19 +8,12 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
 import com.google.android.material.textfield.TextInputEditText
-import kotlin.properties.ReadOnlyProperty
 
 class LoginActivity : AppCompatActivity() {
 
     private val viewModel: LoginViewModel by viewModels()
 
-    private fun viewModels() {
-
-
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -80,8 +73,4 @@ class LoginActivity : AppCompatActivity() {
         viewModel.areCredentialsValid(username, password)
 
     }
-}
-
-private operator fun Unit.getValue(loginActivity: LoginActivity, property: KProperty<*>): LoginViewModel {
-
 }
